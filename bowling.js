@@ -6,7 +6,7 @@ var Game = function() {
         this.rolls.push(n);
     }
 
-    this.getScore = function() {
+    this.calcularPuntos = function() {
         if(this.score !== 0) {
             this.score = 0;
         }
